@@ -1,0 +1,137 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  /* remove bottom margin*/
+  font-family: 'Great Vibes', cursive;
+  font-size: 90px;
+  color: #5fbdb0;
+  padding-top: 50px;
+  /*line-height: 2;*/
+}
+
+h2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #5fbdb0;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #d3d3d3;
+  border-width: 5px;
+  width: 10%;
+  margin: 50px auto 50px auto;
+}
+
+a {
+  color: #11999E;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #f4f9f9;
+}
+
+.middle-container {
+  background-color: #e3e2c3;
+  padding:  50px 0;
+}
+
+.bottom-container {
+  background-color: #5fbdb0;
+  padding: 50px 0 20px 0;
+
+}
+
+/*.bottom-cloud {*/
+/*  position: absolute;*/
+/*  left: 200px;*/
+/*}*/
+
+/*.top-cloud {*/
+/*  position: relative;*/
+/*  left: 200px;*/
+/*  top: 50px;*/
+/*}*/
+.biography{
+  width: 3;
+  margin: inherit;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  /*I changed display to inline-block and it also worked well*/
+  text-align: left;
+  width: 50%;
+  line-height: 2;
+}
+
+.programs-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skill-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*.program-description{
+clear: left;
+}*/
+
+.btn{
+  text-decoration: none;
+  background-color:#5fbdb0;
+  color:#EAF6F6;
+  display:inline-block;
+  padding: 5px 10px;
+  margin: 10px 0 30px 0;
+  border-style: outset;
+  border-radius:10px;
+}
+.btn:hover{
+  background: #1dd3bd;
+}
+
+.footer-linkedIn {
+  margin-right: 50px;
+  text-decoration: none;
+
+}
+
+.footer-twitter {
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.footer-appbrewery {
+  margin-right: 50px;
+  text-decoration: none;
+}
+.patent{
+ color: #EAF6F6;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 8px;
+}
